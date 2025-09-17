@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoTeachApp v5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>AutoTeachApp v5</h1>
+    <textarea id="notes" placeholder="तुझे Notes येथे लिहा..."></textarea>
+    <button onclick="generateScript()">Generate Script</button>
+    <button onclick="playScenes()">Play Video</button>
+    <button onclick="startRecording()">Start Recording</button>
+    <button onclick="stopRecording()">Stop & Download</button>
+    
+    <div id="video-area">
+      <img id="teacher" src="assets/avatar.png" alt="Teacher Avatar">
+      <div id="scene-text"></div>
+      <div id="background"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
